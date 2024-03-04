@@ -5,6 +5,6 @@ services:
     ports:
       - "8078:8080"
   frontend:
-    image: ruth:latest
+    image: yu11001/ruth:latest
     ports:
       - "8077:80"
