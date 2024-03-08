@@ -6,7 +6,7 @@ services:
       - "8078:8080"
     volumes:
       - type: bind
-        source: "C:/data.xlsx"
+        source: /home/ubuntu/data
         target: /data
   frontend:
     image: yu11001/ruth:latest
